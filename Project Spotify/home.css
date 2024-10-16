@@ -1,0 +1,237 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    height: 100px;
+}
+.wrap-1 {
+    display: flex;
+    align-items: center;
+}
+.open-nav {
+    margin-left: 10px;
+}
+.logo-edit-1 {
+    width: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+.wrap-2 {
+    display: flex;
+    align-items: center;
+}
+.logo-edit-2 {
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#search {
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    border: solid 3px;
+    padding-left: 15px;
+    margin: 10px;
+    font-size: medium;
+}
+.wrap-3 {
+    display: flex;
+    align-items: center;
+}
+.button-1 {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border: solid 2px white;
+    font-size: medium;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-right: 5px;
+    color: black;
+}
+.button-2 {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    border: solid 2px;
+    font-size: medium;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 5px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:whitesmoke;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: white;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+ 
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke;
+  }
+  
+ 
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+ 
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 55%;
+    border-radius: 30px;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+ 
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+ 
+  .container {
+    padding: 16px;
+  }
+  
+ 
+  .modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: #474e5d;
+    padding-top: 50px;
+  }
+  
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 50%; 
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+ 
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }
+  .col {
+    width: 60%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+  }
+  .logo-a {
+    text-decoration: none;
+  }
+  .fb-btn,.twitter-btn,.google-btn {
+    margin: 20px;
+    height: 36px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+   
+    background-color: whitesmoke;
+    color: black;
+  }
+  .logo-masuk {
+    position: relative;
+    top: 3px;
+    right: 20px;
+    width: 20px;
+  }
+  .label {
+    position: relative;
+    left: 170px;
+  }
